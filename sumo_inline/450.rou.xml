@@ -1,0 +1,50 @@
+<routes>
+   <vType id="bus" vClass="bus"/>
+     <vehicle id="0" type="bus" depart="0.00">
+        <route edges="E13"/>
+		<stop lane="E13_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="1" type="bus" depart="0.00">
+        <route edges="E14"/>
+		<stop lane="E14_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="2" type="bus" depart="0.00">
+        <route edges="E15"/>
+		<stop lane="E15_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="3" type="bus" depart="0.00">
+        <route edges="E16"/>
+		<stop lane="E16_0" endPos="48" duration="3000"/>
+    </vehicle>
+     <vehicle id="4" type="bus" depart="0.00">
+        <route edges="E17"/>
+		<stop lane="E17_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="5" type="bus" depart="0.00">
+        <route edges="E18"/>
+		<stop lane="E18_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="6" type="bus" depart="0.00">
+        <route edges="E19"/>
+		<stop lane="E19_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="7" type="bus" depart="0.00">
+        <route edges="E20"/>
+		<stop lane="E20_0" endPos="48" duration="3000"/>
+    </vehicle>
+     <vehicle id="8" type="bus" depart="0.00">
+        <route edges="E21"/>
+		<stop lane="E21_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="9" type="bus" depart="0.00">
+        <route edges="E22"/>
+		<stop lane="E22_0" endPos="48" duration="3000"/>
+    </vehicle>
+    <vehicle id="10" type="bus" depart="0.00">
+        <route edges="E23"/>
+		<stop lane="E23_0" endPos="48" duration="3000"/>
+    </vehicle>
+<vehicle id="11" type="bus" depart="1.00">
+<route edges= "E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12"/> 
+</vehicle> 
+</routes>

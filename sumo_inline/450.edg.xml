@@ -1,0 +1,25 @@
+<edges>
+<edge from="1" to="2" id="E1" type="a"/>
+<edge from="2" to="3" id="E2" type="a"/>
+<edge from="3" to="4" id="E3" type="a"/>
+<edge from="4" to="5" id="E4" type="a"/>
+<edge from="5" to="6" id="E5" type="a"/>
+<edge from="6" to="7" id="E6" type="a"/>
+<edge from="7" to="8" id="E7" type="a"/>
+<edge from="8" to="9" id="E8" type="a"/>
+<edge from="9" to="10" id="E9" type="a"/>
+<edge from="10" to="11" id="E10" type="a"/>
+<edge from="11" to="12" id="E11" type="a"/>
+<edge from="12" to="13" id="E12" type="a"/>
+<edge from="14" to="2" id="E13" type="a"/>
+<edge from="15" to="3" id="E14" type="a"/>
+<edge from="16" to="4" id="E15" type="a"/>
+<edge from="17" to="5" id="E16" type="a"/>
+<edge from="18" to="6" id="E17" type="a"/>
+<edge from="19" to="7" id="E18" type="a"/>
+<edge from="20" to="8" id="E19" type="a"/>
+<edge from="21" to="9" id="E20" type="a"/>
+<edge from="22" to="10" id="E21" type="a"/>
+<edge from="23" to="11" id="E22" type="a"/>
+<edge from="24" to="12" id="E23" type="a"/>
+</edges>

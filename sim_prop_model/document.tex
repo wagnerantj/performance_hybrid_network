@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+
+\usepackage{subfigure}
+
+
+\begin{document}
+
+\input{topologySize.tex}
+
+\tikzstyle{every node}+=[font=\footnotesize]
+\begin{tikzpicture}[]
+
+% draw graph 1
+
+\draw plot file {graph1.tex};
+
+\draw[->] (0,0) -- (5.5,0) node[right] {};
+\draw[->] (0,0) -- (0,3.5) node[above] {};
+\foreach \x/\xlabel in {0/0,2.5/,5/\topWidthLabel} {
+\draw(\x,0) -- (\x,-0.2) node[anchor=north] {$\xlabel$};
+\draw(\x,-1) -- (\x,-0.8) node[anchor=north] {};
+};
+\node[anchor=north] at (2.7,-0.2) {width [m]};
+\foreach \y/\ylabel in {0/0,\topHeight/\topHeightLabel} {
+\draw[yshift=-1cm] (5,\y) -- (5.2,\y) node[anchor=west] {$\ylabel$};
+};
+\node[rotate=90,anchor=north east] at (5.2,-1.5) {length [m]};
+\node[left=1.0cm,rotate=90,anchor=center] at (0,1.5) {prop. for
+recv. packet};
+\foreach \y in {0,0.5,1.0}   {
+\draw[yscale=3] (0,\y) -- (-0.2,\y) node[anchor=east] {$\y$};
+};
+
+
+
+% draw graph 2
+\input{graph2}
+
+\draw[yshift=-1cm] (0,0) rectangle (5,\topHeight);
+
+\draw[top color=black,bottom color=white](-0.8,-1) rectangle (-0.5,-4);
+\draw[] (-0.8,-1) -- (-1.0,-1) node[anchor=north east ] {$1.0$};
+\draw[] (-0.8,-4) -- (-1.0,-4) node[anchor=south east] {$0.0$};
+
+
+%\foreach \name/\position in {100/-2, 80/-3, 60/-4, 40/-5, 20/-6, 0/-7}
+%\node at (-1,\position) [label={left:\name \%},rectangle,fill=black!\name,
+%draw=black] {};
+\end{tikzpicture}
+
+\end{document}

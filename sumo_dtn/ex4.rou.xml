@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Mar  4 21:58:16 2019 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="ex2.net.xml"/>
+        <additional-files value="modelo.add.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="ex2.rou.xml"/>
+        <alternatives-output value="ex2.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="50.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+ <vType id="bus" vClass="bus"/> 
+   <vehicle id="0" type="bus" depart="0.00">
+        <route edges="E9_2"/>
+<!-- 		<stop lane="gneE28_0" endPos="9" duration="3000"/> -->
+    </vehicle>
+    <vehicle id="1" type="bus" depart="0.00">
+        <route edges="E3_2"/>
+    </vehicle>
+    <vehicle id="2" type="bus" depart="0.00">
+        <route edges="E9_2"/>
+    </vehicle>
+    <vehicle id="3" type="bus" depart="0.00">
+        <route edges="E7_2"/>
+    </vehicle>
+    <vehicle id="4" type="bus" depart="0.00">
+        <route edges="E12_2"/>
+    </vehicle>
+    <vehicle id="5" type="bus" depart="0.00">
+        <route edges="E10_1"/>
+    </vehicle>
+    <vehicle id="6" type="bus" depart="0.00">
+        <route edges="E12_1"/>
+    </vehicle>
+    <vehicle id="7" type="bus" depart="0.00">
+        <route edges="E6_2"/>
+    </vehicle>
+    <vehicle id="8" type="bus" depart="0.00">
+        <route edges="E1_1"/>
+    </vehicle>
+    <vehicle id="9" type="bus" depart="0.00">
+        <route edges="E3_2"/>
+    </vehicle>
+    <vehicle id="10" type="bus" depart="0.00">
+        <route edges="-gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0"/>
+    </vehicle>
+    <vehicle id="11" type="bus" depart="0.00">
+        <route edges="-gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29"/>
+    </vehicle>
+    <vehicle id="14" type="bus" depart="0.00">
+        <route edges="-gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7"/>
+    </vehicle>
+    <vehicle id="17" type="bus" depart="0.00">
+        <route edges="E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2"/>
+    </vehicle>
+    <vehicle id="18" type="bus" depart="0.00">
+        <route edges="-gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31 -gneE31 E2_2 E2_1 gneE31"/>
+    </vehicle>
+    <vehicle id="19" type="bus" depart="0.00">
+        <route edges="-gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14"/>
+    </vehicle>
+    <vehicle id="22" type="bus" depart="0.00">
+        <route edges="-gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1"/>
+    </vehicle>
+    <vehicle id="25" type="bus" depart="0.00">
+        <route edges="E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1"/>
+    </vehicle>
+    <vehicle id="28" type="bus" depart="0.00">
+        <route edges="-gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4"/>
+    </vehicle>
+    <vehicle id="29" type="bus" depart="0.00">
+        <route edges="E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1 E6_2 gneE4 -gneE4 E6_1"/>
+    </vehicle>
+    <vehicle id="30" type="bus" depart="0.00">
+        <route edges="-gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34"/>
+    </vehicle>
+    <vehicle id="33" type="bus" depart="0.00">
+        <route edges="-gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24"/>
+    </vehicle>
+    <vehicle id="36" type="bus" depart="0.00">
+        <route edges="E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1"/>
+    </vehicle>
+    <vehicle id="41" type="bus" depart="0.00">
+        <route edges="-gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35"/>
+    </vehicle>
+    <vehicle id="39" type="bus" depart="0.00">
+        <route edges="-gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23"/>
+    </vehicle>
+    <vehicle id="40" type="bus" depart="0.00">
+        <route edges="E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1 E12_2 gneE23 -gneE23 E12_1"/>
+    </vehicle>
+    <vehicle id="42" type="bus" depart="284.84">
+        <route edges="-gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35"/>
+    </vehicle>
+    <vehicle id="12" type="bus" depart="306.76">
+        <route edges="-gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0"/>
+    </vehicle>
+    <vehicle id="13" type="bus" depart="306.76">
+        <route edges="-gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29 -gneE29 E10_2 E9_1 gneE0 -gneE0 E9_2 E10_1 gneE29"/>
+    </vehicle>
+    <vehicle id="23" type="bus" depart="324.84">
+        <route edges="-gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1"/>
+    </vehicle>
+    <vehicle id="34" type="bus" depart="333.77">
+        <route edges="-gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24"/>
+    </vehicle>
+    <vehicle id="26" type="bus" depart="336.26">
+        <route edges="E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1"/>
+    </vehicle>
+    <vehicle id="15" type="bus" depart="373.59">
+        <route edges="-gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7"/>
+    </vehicle>
+    <vehicle id="37" type="bus" depart="379.94">
+        <route edges="E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1"/>
+    </vehicle>
+    <vehicle id="20" type="bus" depart="385.33">
+        <route edges="-gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14"/>
+    </vehicle>
+    <vehicle id="31" type="bus" depart="386.15">
+        <route edges="-gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34"/>
+    </vehicle>
+   <vehicle id="43" type="bus" depart="569.68">
+        <route edges="-gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35 -gneE35 E13_2 gneE21 -gneE21 E13_1 gneE35"/>
+    </vehicle>
+    <vehicle id="24" type="bus" depart="649.68">
+        <route edges="-gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1 E5_2 gneE12 -gneE12 E5_1"/>
+    </vehicle>
+    <vehicle id="35" type="bus" depart="667.55">
+        <route edges="-gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24 -gneE24 E8_2 gneE11 -gneE11 E8_1 gneE24"/>
+    </vehicle>
+    <vehicle id="27" type="bus" depart="672.52">
+        <route edges="E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1 E4_2 gneE30 -gneE30 E4_1"/>
+    </vehicle>
+    <vehicle id="16" type="bus" depart="747.19">
+        <route edges="-gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7 -gneE7 E1_1 gneE32 -gneE32 E1_2 gneE7"/>
+    </vehicle>
+    <vehicle id="38" type="bus" depart="759.89">
+        <route edges="E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1 E11_2 gneE28 -gneE28 E11_1"/>
+    </vehicle>
+    <vehicle id="21" type="bus" depart="770.66">
+        <route edges="-gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14 -gneE14 E3_2 gneE33 -gneE33 E3_1 gneE14"/>
+    </vehicle>
+    <vehicle id="32" type="bus" depart="772.31">
+        <route edges="-gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34 -gneE34 E7_2 E7_1 gneE34"/>
+    </vehicle>
+</routes>

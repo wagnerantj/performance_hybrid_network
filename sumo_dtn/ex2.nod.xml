@@ -1,0 +1,13 @@
+<nodes>
+<node id="1" x="7000" y="1300" type="traffic_light" />
+<node id="2" x="9000" y="5000" type="traffic_light"/>
+<node id="3" x="10500" y="8000" type="traffic_light" />
+<node id="4" x="6000" y="6000" type="traffic_light" />
+<node id="5" x="3500" y="1300" type="traffic_light"/>
+<node id="6" x="3500" y="5000" type="traffic_light" />
+<node id="7" x="1100" y="1300" type="traffic_light" />
+<node id="8" x="1500" y="8000" type="traffic_light" />
+<node id="9" x="3500" y="10800" type="traffic_light"/>
+<node id="10" x="6000" y="10800" type="traffic_light" />
+
+</nodes>

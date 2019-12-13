@@ -1,0 +1,5 @@
+<types>
+<type id="a" numLanes="1" speed="15" />
+<type id="b" numLanes="2" speed="25" />
+<type id="c" numLanes="3" speed="35" />
+</types>
